@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Adapter.Pattern（适配器模式）\Standard\" />
+    <Folder Include="BridgePattern（桥接模式）\Standard\" />
+    <Folder Include="BuilderPattern\Standard\" />
+    <Folder Include="Decorator.Pattern（装饰者模式）\Standard\" />
+    <Folder Include="FactoryPattern\Standard\" />
+    <Folder Include="Memento.Pattern（备忘录模式）\Standard\" />
+    <Folder Include="Observer.Pattern（观察者模式）\Standard\" />
+    <Folder Include="创建型设计模式\Prototype.Pattern（原型模式）\Standard\" />
+    <Folder Include="ProxyPattern（代理模式）\Standard\" />
+  </ItemGroup>
+
+</Project>
